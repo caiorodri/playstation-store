@@ -1,1 +1,20 @@
-a
+<div class="card-price-container">
+
+    <div class="card-price-title">
+        <h3>{{ gameCardTitle }}</h3>
+    </div>
+    <div class="card-price-content">
+        <div class="card-price-console">
+            <div *ngFor="let console of consoles; let i = index" class="card-price-console-content">
+                <span *ngIf="i == 0" style="color: aqua;">|</span>
+                <span *ngIf="i != 0">|</span>
+                <p >{{ console }}</p>
+            </div>
+        </div>
+        <div class="card-price-value">
+            <p class="game-value">{{ typeCoin }} {{ gameValue }}</p>
+        </div>
+        
+    </div>
+
+</div>

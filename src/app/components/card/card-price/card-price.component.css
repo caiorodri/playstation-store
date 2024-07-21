@@ -1,0 +1,44 @@
+.card-price-container {
+
+    position: absolute;
+    width: 100%;
+    height: 4rem;
+    padding: .6rem;
+    background-color: rgba(0, 0, 0, .8);
+    bottom: 0;
+    left: 0;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    gap: .3rem;
+
+}
+
+.card-price-content {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.card-price-console, .card-price-console-content{
+
+    display: flex;
+    gap: .5rem;
+
+}
+
+
+
+.card-price-console > span {
+
+    margin-top: -0.113rem;
+    font-weight: bolder;
+
+}
+
+.card-price-value {
+
+
+}

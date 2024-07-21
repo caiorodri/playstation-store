@@ -1,5 +1,5 @@
 <a href="#" class="card-container">
-    <!-- <img src="{{ logo }}" alt=""> -->
     <img class="card-img" [src]="gameImage" alt="">
-    <app-card-label></app-card-label>
+    <app-card-label [gameLabel]="gameLabel"></app-card-label>
+    <app-card-price [gameCardTitle]="gameCardTitle" [gameValue]="gameValue" [consoles]="consoles" [typeCoin]="typeCoin"></app-card-price>
 </a>
